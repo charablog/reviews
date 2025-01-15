@@ -1,0 +1,137 @@
+/**
+ * Theme Name:          Color Blogger
+ * Theme URI:           https://demo.mysterythemes.com/color-blog-demos
+ * Author:              Mystery Themes
+ * Author URI:          https://mysterythemes.com/
+ * Description:         Ignite your blogging journey with Color Blogger, a modern and dynamic WordPress blogging theme that brings your stories to life. Custom made for bloggers, the theme illustrates the vibrant aesthetics and effortless functionalities required for every creative writer to keep their readers engaged.
+ * Version:             1.0.0
+ * Requires at least:   5.0
+ * Tested up to:        6.7
+ * Requires PHP:        7.2
+ * License:             GNU General Public License v3 or later
+ * License URI:         http://www.gnu.org/licenses/gpl-3.0.html
+ * Template:            color-blog
+ * Text Domain:         color-blogger
+ * Tags:                blog, portfolio, news, one-column, two-columns, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-logo, custom-menu, editor-style, footer-widgets, rtl-language-support, theme-options, translation-ready
+ */
+
+
+ #page {
+    background: transparent
+ }
+
+ article{
+     box-shadow: 0 0 15px rgba(0 0 0 / 0.08);
+     background-color: #fff;
+     text-align: left;
+     border-radius: 10px;
+     padding: 20px;
+ }
+
+ .wp-block-latest-comments__comment article,  #colophon article{
+    background: transparent;
+    box-shadow: none;
+    border-radius: 0px;
+    padding: 0px;
+ }
+
+ .item-title a,
+ .entry-title a {
+   font-family: "Be Vietnam Pro", Helvetica, Arial, sans-serif;
+   font-weight: 700;
+   font-size: 26px;
+ }
+
+ .single .entry-content a {
+    text-decoration: underline;
+  }
+
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+   font-family: "Be Vietnam Pro", Helvetica, Arial, sans-serif;
+   font-weight: 700;
+ }
+
+ #colophon .widget .widget-title, #secondary .widget .widget-title, .mt-related-post-title{
+    font-size: 25px;
+ }
+
+ #secondary .widget .widget-title::before, .mt-related-post-title:before, #colophon .widget .widget-title:before, .features-post-title:before{
+    top: 16px;
+ }
+
+ body {
+   font-family: "Be Vietnam Pro", Helvetica, Arial, sans-serif;
+   color: #302b2b;
+ }
+
+ #secondary .widget{
+     box-shadow: 0 0 15px rgba(0 0 0 / 0.08);
+     background-color: #fff;
+     border-radius: 10px;
+ }
+
+ article:hover, .top-featured-post-wrap .mt-single-post-wrap:hover,.front-slider-block:hover {
+     box-shadow: 0 4px 60px 0 rgb(0 0 0 / 15%);
+ }
+
+ .post-cats-list a{
+     font-size: 15px;
+     border-radius: 10px;
+ }
+
+ .entry-footer .mt-readmore-btn, .btn-wrapper a, .mt-readmore-btn{
+     padding: 5px 15px;
+     font-size: 16px;
+     border: 2px solid ;
+     border-radius: 10px;
+ }
+
+ .entry-footer .mt-readmore-btn:hover, .btn-wrapper a:hover, .mt-readmore-btn:hover, .author-social .mt-social-icon-wrap li a:hover{
+     color: #fff;
+ }
+
+
+ .widget_archive a, .widget_categories a, .widget_recent_entries a, .widget_meta a, .widget_recent_comments li, .widget_rss li, .widget_pages li a, .widget_nav_menu li a, .wp-block-latest-posts li a, .wp-block-archives li a, .wp-block-categories li a, .wp-block-page-list li a, .wp-block-latest-comments li, .wp-block-latest-comments{
+     font-size: 16px;
+     font-weight:500;
+ }
+
+ .wp-block-search__button {
+     width: 95px;
+     line-height: 0.4;
+
+ }
+
+ .top-featured-post-main-wrapper .entry-title a{
+     font-size: 22px;
+ }
+
+ .features-post-title {
+     margin-bottom: 5px;
+     font-size: 25px;
+ }
+
+ .top-featured-post-wrap .mt-single-post-wrap {
+    margin-bottom: 12px;
+    box-shadow: 0 0 15px rgba(0 0 0 / 0.08);
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.logo-ads-wrap .mt-container{
+    display: flex;
+    align-items: center;
+}
+
+.header-widget-wrapper{
+    margin-left: auto;
+}
+
+.tags-wrapper a:hover{
+    color:#fff;
+}
